@@ -4,12 +4,12 @@
 		    &nbsp;
 		</td>         
 		<td>
-		<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online" bgcolor="#be2d44">
+		<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online background-primary">
 		<tbody>
 			<tr>
-				<td align="center" style="color: #ffffff; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;">
+				<td align="center" style="color: #ffffff;" class="font-stack">
 					<div style="padding: 0px; margin: 0px; line-height: 10px; border-bottom: 0px">&nbsp;</div>
-					To view online <a href="#" style="color: #ffffff">click here</a>
+					To view online <a href="#" style="color: #ffffff;" class="underline">click here</a>
 					<div style="padding: 0px; margin: 0px; line-height: 10px; border-bottom: 0px">&nbsp;</div>
 				</td>
 			</tr>

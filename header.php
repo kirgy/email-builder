@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
@@ -8,6 +8,8 @@
   <title>Kerve</title>
   
   <style type="text/css">
+
+  	/* GLOBAL RESETS */
     * { 
       margin: 0;
       padding: 0;
@@ -28,9 +30,20 @@
 
     a {
       color: #000000;
-      text-decoration: underline;
+      text-decoration: none !important;
       padding-left: 0px;
     }
+
+    a.underline {
+    	text-decoration: underline !important;
+    }
+
+   .msoFix {
+		mso-table-lspace:-1pt;
+		mso-table-rspace:-1pt;
+   }
+
+    /**************************************/
 
     a.unsub {
       color: #FFFFFF;
@@ -55,6 +68,18 @@
     table.footer-wrap p {
       color: #CACACA;
     }
+
+    [class~="desktop-hide"] {
+			display: none; 
+			font-size: 0; 
+			max-height: 0; 
+			line-height: 0; 
+			padding: 0; (optional)
+			mso-hide: all; /* hide elements in Outlook 2007-2013 */
+	}
+
+
+
 
     /* ------------------------------------- 
         TYPOGRAPHY 
@@ -262,10 +287,38 @@
           text-align: center !important;
       }
 
+      [class~="desktop-hide"] {
+		display: block !important;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+      }
+      [class~="mobile-text-center"] {
+      	text-align: center !important;
+      }
+
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .hero_image img {
+            width: 100%;
+            height: auto !important;
+        }      
+
+        td[class="pattern"] .spacer { display: none; }
+        td[class="pattern"] .colstatic{
+        	display: block;
+        }
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col:first-child { margin-bottom: 30px; }
+        td[class="pattern"] .hero_image img { width: 100%; }      
+
     }
 
 
     @media only screen and (max-width: 380px) {
+
       [class~="tiny-hide"] {
         display: none;
       }

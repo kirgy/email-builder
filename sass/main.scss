@@ -1,0 +1,21 @@
+$color-primary: #be2d44;
+
+.font-stack {
+	font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.background-primary {
+	background: $color-primary;
+}
+
+.color-primary {
+	color: $color-primary;
+}
+
+.font-size-text { 
+	font-size: 14px;
+}
+
+.font-size-h2 {
+	font-size: 22px;
+}
