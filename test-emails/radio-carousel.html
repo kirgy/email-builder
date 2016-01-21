@@ -1,0 +1,161 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<style type="text/css">
+
+        *[class].webkit-only,
+        *[class].webkit-only div,
+        *[class].webkit-only table,
+        *[class].webkit-only tr,
+        *[class].webkit-only td,
+        *[class].webkit-only img,
+        *[class].webkit-only label,
+        *[class].webkit-only input {
+			max-height:0; /* Gmail*/
+			display:none; /* Generic*/
+			mso-hide:all; /* Outlook clients*/
+			overflow:hidden; /* Generic */            
+        }
+
+		*[id]#select-1:checked + #menu-wrapper1, *[id]#select-2:checked + #menu-wrapper2
+		{
+		  max-height: 190px;
+		}
+
+		*[class].carousel-item-1 {
+			background: #ff00ff;
+		}
+		*[class].carousel-item-2 {
+			background: #0000ff;
+		}
+		*[class].carousel-item-3 {
+			background: #ff0000;
+		}
+
+
+
+
+		* [summary=nowebkit-hide] {
+		    display: none !important;
+		}
+
+		table#nowebkit-hide {
+			display: block;
+		}
+
+		@media all and ( max-width: 600px ) {
+		}
+	</style>
+	<style type="text/css">
+		@media screen and (-webkit-min-device-pixel-ratio: 0) {
+            /* Preheader will show for all non-iOS who can't fully enjoy the carousel */
+
+			table#nowebkit-hide {
+				display: none !important;
+			}
+
+			.webkit-only {
+				display: block !important;
+				max-height: initial !important;
+				overflow: initial !important;
+			}
+
+			.carousel-item-1, .carousel-item-2, .carousel-item-3 {
+				height: 500px;
+			}
+
+			*[id]#item-1:checked + .carousel-item-1 {
+				display: block !important;
+			}
+			*[id]#item-2:checked + .carousel-item-2 {
+				display: block !important;
+			}
+			*[id]#item-3:checked + .carousel-item-3 {
+				display: block !important;
+			}
+		}
+	</style>
+</head>
+<body>
+<table width="600" align="center" style="border: 1px solid #000000;">
+	<tr>
+		<td style="border: 1px solid #000000;">
+			<label for="item-1">
+				Item 1
+			</label>	
+			<label for="item-2">
+				Item 2
+			</label>	
+			<label for="item-3">
+				Item 3
+			</label>	
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #000000;">
+			<table class="webkit-only" height="400">
+				<tr>
+					<td>
+						<input type="radio" checked id="item-1" name="carousel-series" style="display: none !important;">
+						<table class="carousel-item-1" style="display: none;">
+						<tr><td>
+							<table width="650">
+								<tr>
+									<td>
+										ITEM 1!
+									</td>
+								</tr>
+							</table>
+						</td></tr>
+						</table>
+
+						<input type="radio" id="item-2" name="carousel-series" style="display: none !important;">
+						<table class="carousel-item-2" style="display: none;">
+						<tr><td>						
+							<table width="650">
+								<tr>
+									<td>
+										ITEM 2!
+									</td>
+								</tr>
+							</table>
+						</td></tr>
+						</table>
+
+						<input type="radio" id="item-3" name="carousel-series" style="display: none !important;">
+						<table class="carousel-item-3" style="display: none;">
+						<tr><td>						
+							<table width="650">
+								<tr>
+									<td>
+										ITEM 3!
+									</td>
+								</tr>
+							</table>
+						</td></tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<div class="fallback">
+				<!-- Fallback - No carousel but a sweet animated gif-->			
+				<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="492" align="center" class="nowebkit-hide" id="nowebkit-hide">
+					<tr>
+						<td align="center" width="76%" style="position: relative; font-size: 20px; padding-top:30px">
+							<img src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/anim-US-opt.gif" width="492" style="line-height: 285px; font-size: 350px; color:#00afd8" alt="○">
+						</td>
+					</tr>
+					<tr>
+						<td height="15" style="font-size:0; line-height:0">&nbsp;</td>
+					</tr>
+				</table>
+				<!-- // Fallback Gallery !--> 
+			</div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

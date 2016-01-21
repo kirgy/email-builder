@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<style>
+  .car-cont{
+    height:327px !important;
+    max-height:327px !important;
+  }
+  .car-img{
+    max-height: none !important;
+    width:auto !important;
+    height: auto !important;  
+    display: none;
+  }
+  .car-img-1{
+    clear:left;
+    display:block;
+  }
+  .car-thumb, .car-thumb img
+  {
+    display: inline-block;
+    float: left;  
+    max-height: none !important;  
+    width:87px;
+    height:65px !important;
+    cursor: pointer;
+  }
+  .car-thumb:hover + .car-img
+  {
+    clear:both;
+    display:block !important;
+  }
+}
+ @media screen and (max-device-width: 1024px) {
+  div[class].car-img{
+    position: absolute;
+    left:0px;
+    top: 65px;    
+  }
+  div[class].car-thumb:hover + .car-img
+  {
+    z-index:2;
+  }
+</style>
+</head>
+<body>
+
+<table cellpadding=0 border=0 cellspacing=0 style="border-spacing:0px;border-collapse: collapse;">
+<tr><td background="http://freshinbox.com/examples/carousel/images/thumbs-background.jpg">
+<div class="car-cont" style="width:350px;height:263px;max-height:263px;overflow:hidden;position:relative;">
+<div style="mso-hide:all;">
+<div class="car-thumb" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/blank.gif"></div>
+<div class="car-thumb" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/blank.gif"></div>
+<div class="car-img" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/i-table.jpg" width="350" height="263" border="0" style="display:block;"></div>
+<div class="car-thumb" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/blank.gif"></div>
+<div class="car-img" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/i-pool.jpg" width="350" height="263" border="0" style="display:block;"></div>
+<div class="car-thumb" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/blank.gif"></div>
+<div class="car-img" style="max-height:0px;height:0px;overflow:hidden;"><img src="http://freshinbox.com/examples/carousel/images/i-balcony.jpg" width="350" height="263" border="0" style="display:block;"></div>
+</div>
+<div class="car-img car-img-1"><a href="http://www.omnihotels.com/FindAHotel/AmeliaIsland.aspx"><img src="http://freshinbox.com/examples/carousel/images/i-bed.jpg" width="350" height="263" border="0" alt="Hotel" style="display:block;"></a></div>
+</div>
+</td></tr></table>
+
+
+
+</body>
+</html>

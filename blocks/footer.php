@@ -1,10 +1,10 @@
-  <table cellspacing="0" width="600" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth">
+  <table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth">
     <tr>
 		<td width="20">
 			&nbsp;
 		</td>
 		<td>
-<table cellspacing="0" width="560" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+<table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
     <tr>
 		<td width="20" border="0" bgcolor="#010101">
 	        &nbsp;
@@ -33,7 +33,7 @@
 															&nbsp;
 														</td>
 														<td width="218">
-															<table cellspacing="0" width="258" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0">
+															<table cellspacing="0" width="308" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0">
 																<tr>
 																	<td>
 																		<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>

@@ -5,7 +5,7 @@
 <tbody><tr><td align="center" class="body-background-color">
   <div style="padding: 0px; margin: 0px; line-height: 20px; border-bottom: 0px">&nbsp;</div>
 
-  <table cellspacing="0" width="600" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth">
+  <table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth">
     <tr>
     <td width="20" class="mobile-hide">
       &nbsp;
@@ -24,6 +24,7 @@
     <?php $eb->addBlock('2-col-title-button'); ?>
 
     <?php $eb->addBlock('2-col-image-2cta'); ?>
+    <?php $eb->addBlock('carousel'); ?>
 
     </td>
     <td width="20" class="mobile-hide">

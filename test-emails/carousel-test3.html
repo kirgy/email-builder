@@ -1,0 +1,202 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<style>
+	input{
+	  display: none;
+	}
+	@media screen and (max-width:10000px){
+	  .cboxcheck:checked + .thumbnail,
+	  * [summary=cboxcheck]:checked + [summary^=thumbnail] {
+		height: auto !important;
+		max-height: none !important;
+		line-height:0;
+	  }
+	  .thumbnail span,
+	  * [summary^=thumbnail] span {
+		font-size:0;
+		line-height:0;
+	  }
+	  
+	  .cboxcheck:checked + .thumbnail .car-content, 
+	  * [summary=cboxcheck]:checked + [summary^=thumbnail] [summary^=content]{
+		display:none;
+		max-height:0px;
+		overflow:hidden;
+	  }
+	  .thumbnail .cbox1:checked + span .content-1,
+	  .thumbnail .cbox2:checked + span .content-2,
+	  .thumbnail .cbox3:checked + span .content-3,
+	  .thumbnail .cbox4:checked + span .content-4,
+	  .thumbnail .cbox5:checked + span .content-5,
+	  * [summary^=thumbnail] [summary=cbox1]:checked + span [summary=content-1], 
+	  * [summary^=thumbnail] [summary=cbox2]:checked + span [summary=content-2],
+	  * [summary^=thumbnail] [summary=cbox3]:checked + span [summary=content-3], 
+	  * [summary^=thumbnail] [summary=cbox4]:checked + span [summary=content-4], 
+	  * [summary^=thumbnail] [summary=cbox5]:checked + span [summary=content-5] 
+	  {
+		display:block !important;
+		max-height:none !important;
+		overflow:visible !important;
+	  }
+	  
+
+	  .thumbnail .thumb,
+	  * [summary^=thumbnail] [summary=thumb]{
+		cursor:pointer;
+		display:inline-block;
+		width:17.5%;
+		margin:1% 0.62%;
+		border:2px solid #bbbbbb;
+	  }
+	  .thumbnail .thumb:hover,
+	  * [summary^=thumbnail] [summary=thumb]:hover{
+		border:2px solid #444444;
+	  }
+	  .thumbnail input:checked + span > span,
+	  * [summary^=thumbnail] [summary^=cbox]:checked + span > span{
+		border-color: #444444;
+	  }  
+	  .thumbnail .thumb img,
+	  * [summary^=thumbnail] [summary=thumb] img{
+		width:100%;
+		height: auto;
+	  }
+	  .thumbnail img,
+	  * [summary^=thumbnail] img{
+		max-height: none !important;
+	  }      
+	  .cboxcheck:checked + .fallback{
+		display:none !important;
+		display:none;
+		max-height: 0px;
+		height: 0px;
+		overflow: hidden;
+	  }
+	  * [lang="x-cboxcheck"]:checked + [lang="x-fallback"]
+	  {
+		max-height: 0px;
+		height: 0px;
+		overflow: hidden;
+	  }  
+	}
+
+	@media screen and (max-width:600px){
+	  .car-table.responsive,
+	  .car-table.responsive .thumbnail,
+	  .car-table.responsive .thumbnail .car-content img,
+	  .car-table.responsive .fallback .car-content img
+	   {
+		width:100% !important;	
+		height:auto;
+	   }
+	}    
+	
+</style>
+</head>
+<body>
+	<table class="car-table  responsive" cellpadding=0 cellspacing=0 border="0" width="450">
+		<tr>
+			<td>
+				<!--[if !mso]><!-- -->
+				<input type=radio class="cboxcheck" summary="cboxcheck" style="display:none !important;" checked>
+				<div class="thumbnail " summary="thumbnail" style="width:450px;height:0px;max-height:0px;overflow:hidden;text-align:center">
+					<label>
+						<input type="radio" name="car-rd1" class="cbox3" summary="cbox3" style="display:none !important;"  >
+						<span>
+							<label>
+								<input type="radio" name="car-rd1" class="cbox2" summary="cbox2" style="display:none !important;"  >
+								<span>
+									<label>
+										<input type="radio" name="car-rd1" class="cbox1" summary="cbox1" style="display:none !important;" checked >
+										<span>
+											<div class="content-1 car-content" summary="content-1">
+												<a href="http://kerve.co.uk">
+													<table  height="400" width="400">
+														<tr>
+															<td style="font-size: 12px; line-height: 14px; color: #000000; background: #ff0000">
+																<p>
+																	SLIDE 1
+																</p>
+															</td>
+														</tr>
+													</table>
+												</a>
+											</div>
+											<div class="content-2 car-content" summary="content-2">
+												<table  height="400" width="400">
+													<tr>
+														<td style="font-size: 12px; line-height: 14px; color: #000000; background: #00ff00">
+															<p>
+																SLIDE 2
+															</p>
+														</td>
+													</tr>
+												</table>
+											</div>
+											<div class="content-3 car-content" summary="content-3">
+												<a href="http://kerve.co.uk">
+													<table  height="400" width="400">
+														<tr>
+															<td style="font-size: 12px; line-height: 14px; color: #000000; background: #0000ff">
+																<p>
+																	SLIDE 3
+																</p>
+															</td>
+														</tr>
+													</table>
+												</a>
+											</div>
+											<span class="thumb" summary="thumb">
+												<table width="50" height="50">
+													<tr>
+														<td style="font-size: 12px; color: #000000;">
+															Select 1
+														</td>
+													</tr>
+												</table>
+											</span>
+										</span>
+									</label>
+									<span class="thumb" summary="thumb">
+										<table width="50" height="50">
+											<tr>
+												<td style="font-size: 12px; color: #000000;">
+													Select 2
+												</td>
+											</tr>
+										</table>
+									</span>
+								</span>
+							</label>
+							<span class="thumb" summary="thumb">
+								<table width="50" height="50">
+									<tr>
+										<td style="font-size: 12px; color: #000000;">
+											Select 3
+										</td>
+									</tr>
+								</table>
+							</span>
+						</span>
+					</label>
+				</div>
+				<input type=radio class="cboxcheck" lang="x-cboxcheck" style="display:none !important;" checked>
+				<!--<![endif]-->
+
+
+				<div class="fallback " lang="x-fallback">
+					<div class="car-content" summary="car-content">
+						<a href="http://kerve.co.uk">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=40&txt=FALLBACK%20IMAGE&w=450&h=280" width="450" height="280" alt="."style="display:block;" border="0">
+						</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+   </body>
+</html>

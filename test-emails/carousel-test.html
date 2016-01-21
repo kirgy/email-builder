@@ -1,0 +1,168 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<style type="text/css">
+
+
+		*[id]#select-1:checked + #menu-wrapper1, *[id]#select-2:checked + #menu-wrapper2
+		{
+		  max-height: 190px;
+		}
+
+		*[class].hamburger-1 {
+			display: none;
+			max-height: 0;
+			overflow: hidden;
+		}
+
+		@media all and ( max-width: 600px ) {
+			*[id]#wrapper + table,
+			*[class].container,
+			*[class].menu
+			{
+			  min-width: 0 !important;
+
+			  -moz-text-size-adjust: none;
+			  -ms-text-size-adjust: none;
+			  -webkit-text-size-adjust: none;
+
+			  width: 100% !important;
+			}
+
+			*[class].hamburger-1 {
+				display: block !important;
+				max-height: 500px !important;
+				overflow: initial !important;				
+			}
+
+
+			*[id]#menu-wrapper1, *[id]#menu-wrapper2
+			{
+			  background-color: #004677;
+			  max-height: 0;
+			  overflow: hidden;
+
+			  -moz-transition: max-height .25s linear;
+			  -ms-transition: max-height .25s linear;
+			  -o-transition: max-height .25s linear;
+			  -webkit-transition: max-height .25s linear;
+			  transition: max-height .25s linear;
+			}
+
+			*[class].menu {
+			  width: 100% !important;
+			}
+
+			*[class].menu + .menu
+			{
+			  border-top: 1px solid #7C90AF;
+			  width: 100%;
+			}
+
+			*[class].menu-item
+			{
+			  color: #FFFFFF !important;
+			  display: block;
+
+			  padding: 12px;
+			  text-align: center;
+			}
+		}
+	</style>
+</head>
+<body>
+<table width="600" align="center" style="border: 1px solid #000000;">
+	<tr>
+		<td style="border: 1px solid #000000;">
+			<label for="select-1" class="hamburger-1" style="width:100%; display: none;">
+				<img src="http://flatfrogblog.com/wp-content/uploads/2014/01/hamburger-menu-300x300.png" width="40">
+			</label>
+			
+			<!--[if mso]><p style="display: none;"><![endif]-->
+			<input type="checkbox" id="select-1" class="hide-this" style="display: none!important;max-height: 0;visibility: hidden;">
+			<!--[if mso]></p><![endif]-->
+
+			<div id="menu-wrapper1">
+				<table>
+					<tr>
+						<td>
+							<label class="menu-1">
+								<!--[if mso]>
+								</td><td><![endif]-->
+
+								<table align="right" border="0" cellpadding="0" cellspacing="0" class="menu">
+									<tbody><tr>
+									  <td>
+										<div id="menu-wrapper"><!--[if mso]>
+										  <table border="0" cellpadding="0" cellspacing="0">
+											<tr>
+											  <td><![endif]-->
+												<table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+												  <tbody><tr>
+													<td nowrap="" style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
+													  <a href="http://www.pbccu.coop/cu-online/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">CU Online</a>
+													</td>
+												  </tr>
+												</tbody></table><!--[if mso]>
+											  </td><td><![endif]-->
+												<table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+												  <tbody><tr>
+													<td nowrap="" style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
+													  <a href="http://www.pbccu.coop/apply/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">Apply Online</a>
+													</td>
+												  </tr>
+												</tbody></table><!--[if mso]>
+											  </td><td><![endif]-->
+												<table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+												  <tbody><tr>
+													<td nowrap="" style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
+													  <a href="http://www.pbccu.coop/rates/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">Rates</a>
+													</td>
+												  </tr>
+												</tbody></table><!--[if mso]>
+											  </td>
+											</tr>
+										  </table><![endif]-->
+										</div>
+									  </td>
+									</tr>
+								  </tbody></table>
+
+								<!--[if mso]>
+								</td>
+								</tr>
+								</table><![endif]-->                
+							</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+		<td style="border: 1px solid #000000;">
+			<label for="select-2" style="width:100%; display: block !important;">
+				menu selector 2
+			</label>
+
+			<!--[if mso]><p style="display: none;"><![endif]-->
+			<input type="checkbox" id="select-2" class="hide-this" style="display: none!important;max-height: 0;visibility: hidden;">
+			<!--[if mso]></p><![endif]-->
+
+			<div id="menu-wrapper2">
+				<table>
+					<tr>
+						<td>
+							<label class="menu-2">
+								Menu item 2
+							</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

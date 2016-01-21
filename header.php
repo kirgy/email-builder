@@ -28,6 +28,10 @@
 		display: block;
 	}
 
+    table {
+      border-collapse: collapse !important;
+    }
+
     a {
       color: #000000;
       text-decoration: none !important;
@@ -381,6 +385,101 @@
 	p.black-text {
 		color: #000000;
 	}
+
+  /****
+  * Carousel code begins here
+  *
+  */
+  input{
+    display: none;
+  }
+  @media screen and (max-width:10000px){
+    .cboxcheck:checked + .thumbnail,
+    * [summary=cboxcheck]:checked + [summary^=thumbnail] {
+    height: auto !important;
+    max-height: none !important;
+    line-height:0;
+    }
+    .thumbnail span,
+    * [summary^=thumbnail] span {
+    font-size:0;
+    line-height:0;
+    }
+    
+    .cboxcheck:checked + .thumbnail .car-content, 
+    * [summary=cboxcheck]:checked + [summary^=thumbnail] [summary^=content]{
+    display:none;
+    max-height:0px;
+    overflow:hidden;
+    }
+    .thumbnail .cbox1:checked + span .content-1,
+    .thumbnail .cbox2:checked + span .content-2,
+    .thumbnail .cbox3:checked + span .content-3,
+    .thumbnail .cbox4:checked + span .content-4,
+    .thumbnail .cbox5:checked + span .content-5,
+    * [summary^=thumbnail] [summary=cbox1]:checked + span [summary=content-1], 
+    * [summary^=thumbnail] [summary=cbox2]:checked + span [summary=content-2],
+    * [summary^=thumbnail] [summary=cbox3]:checked + span [summary=content-3], 
+    * [summary^=thumbnail] [summary=cbox4]:checked + span [summary=content-4], 
+    * [summary^=thumbnail] [summary=cbox5]:checked + span [summary=content-5] 
+    {
+    display:block !important;
+    max-height:none !important;
+    overflow:visible !important;
+    }
+    
+
+    .thumbnail .thumb,
+    * [summary^=thumbnail] [summary=thumb]{
+    cursor:pointer;
+    display:inline-block;
+    width:17.5%;
+    margin:1% 0.62%;
+    border:2px solid #bbbbbb;
+    }
+    .thumbnail .thumb:hover,
+    * [summary^=thumbnail] [summary=thumb]:hover{
+    border:2px solid #444444;
+    }
+    .thumbnail input:checked + span > span,
+    * [summary^=thumbnail] [summary^=cbox]:checked + span > span{
+    border-color: #444444;
+    }  
+    .thumbnail .thumb img,
+    * [summary^=thumbnail] [summary=thumb] img{
+    width:100%;
+    height: auto;
+    }
+    .thumbnail img,
+    * [summary^=thumbnail] img{
+    max-height: none !important;
+    }      
+    .cboxcheck:checked + .fallback{
+    display:none !important;
+    display:none;
+    max-height: 0px;
+    height: 0px;
+    overflow: hidden;
+    }
+    * [lang="x-cboxcheck"]:checked + [lang="x-fallback"]
+    {
+    max-height: 0px;
+    height: 0px;
+    overflow: hidden;
+    }  
+  }
+
+  @media screen and (max-width:600px){
+    .car-table.responsive,
+    .car-table.responsive .thumbnail,
+    .car-table.responsive .thumbnail .car-content img,
+    .car-table.responsive .fallback .car-content img
+     {
+    width:100% !important;  
+    height:auto;
+     }
+  }    
+
 
   </style>
 
