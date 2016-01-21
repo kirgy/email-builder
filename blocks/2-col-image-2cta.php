@@ -1,8 +1,5 @@
-<table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
-    <tr>
-		<td width="20" border="0" class="body-background-color">
-	        &nbsp;
-      	</td>         
+<table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+    <tr>        
       	<td style="vertical-align: top;">
 			<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online" bgcolor="#faf9f5">
 			<tbody>
@@ -21,10 +18,10 @@
 								<td style="vertical-align: top; font-family: helvetica;">
 									<table cellpadding="0" cellspacing="0" align="center" width="100%">
 									    <tr>
-									        <td class="pattern" width="530" align="center">
+									        <td class="pattern" align="center">
 									            <table cellpadding="0" cellspacing="0">
 									                <tr>
-									                    <td class="col" width="255" valign="top">
+									                    <td class="col" width="295" valign="top">
 									                        <table cellpadding="0" cellspacing="0">
 									                            <tr>
 									                                <td class="headline" align="left" style="font-family: arial,sans-serif; font-size: 22px; color: #333;">
@@ -51,14 +48,14 @@
 									                        </table>
 									                    </td>
 									                    <td class="spacer" width="20" style="font-size: 1px;">&nbsp;</td>
-									                    <td class="col" width="255" valign="top">
+									                    <td class="col" width="295" valign="top">
 									                        <table cellpadding="0" cellspacing="0">
 									                            <tr>
 									                                <td class="hero_image">
 																		<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-										                                	<img src="http://placehold.it/505x447" width="255" alt="" style="display: block; border: 0;" />
+										                                	<img src="http://placehold.it/610x540" width="295" alt="" style="display: block; border: 0;" />
 																		<?php else: ?>
-										                                	<img src="images/2-col-image-2cta/main-image.jpg" width="255" alt="" style="display: block; border: 0;" />
+										                                	<img src="images/2-col-image-2cta/main-image.jpg" width="295" alt="" style="display: block; border: 0;" />
 																		<?php endif; ?>									                                
 								                                	</td>
 									                            </tr>
@@ -77,20 +74,14 @@
 																					<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" style="display: block; margin: auto;">
 																						<tbody>
 																						<tr>
-																							<td>
-																								&nbsp;
-																							</td>
-																							<td width="100%" style="text-align: center; border-radius: 5px; background-color: #ffffff; color: #BE2D44;" height="35" class="mobile-fullwidth">
+																							<td width="100%" style="text-align: center; background-color: #ffffff; color: #BE2D44;" height="35" class="mobile-fullwidth">
 																								<a href="#" style="" target="_blank">
 																									<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-																										<img src="http://placehold.it/244x80" width="115" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																										<img src="http://placehold.it/305x95" width="148" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																									<?php else: ?>
 																										<img src="images/2-col-image-2cta/app-store-logo-apple.jpg" width="115" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																									<?php endif; ?>																								
 																								</a>
-																							</td>
-																							<td>
-																								&nbsp;
 																							</td>
 																						</tr>
 																						</tbody>
@@ -100,20 +91,14 @@
 																					<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" style="display: block; margin: auto;">
 																						<tbody>
 																						<tr>
-																							<td>
-																								&nbsp;
-																							</td>
-																							<td width="100%" style="text-align: center; border-radius: 5px; background-color: #ffffff; color: #BE2D44; text-align: right;" height="35" class="mobile-fullwidth">
+																							<td width="100%" style="text-align: center; background-color: #ffffff; color: #BE2D44; text-align: right;" height="35" class="mobile-fullwidth">
 																								<a href="#" style="text-align: right;" target="_blank">
 																									<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-																										<img src="http://placehold.it/244x80" width="115" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																										<img src="http://placehold.it/305x95" width="148" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																									<?php else: ?>
 																										<img src="images/2-col-image-2cta/app-store-logo-google.jpg" width="115" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																									<?php endif; ?>																										
 																								</a>
-																							</td>
-																							<td>
-																								&nbsp;
 																							</td>
 																						</tr>
 																						</tbody>
@@ -142,9 +127,6 @@
 				</tr>
 			</tbody>
 			</table>
-		</td>
-      <td width="20" border="0" class="body-background-color">
-        &nbsp;
-      </td>  		
+		</td>		
 	</tr>
 </table>

@@ -1,16 +1,8 @@
-<table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
-    <tr>
-		<td width="20" border="0" class="body-background-color">
-	        &nbsp;
-      	</td>         
+<table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+    <tr>       
       	<td style="vertical-align: top;">
 			<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online" bgcolor="#be2d44">
 			<tbody>
-				<tr>
-					<td height="20">
-						&nbsp;
-					</td>
-				</tr>
 				<tr>
 					<td>
 						<table cellspacing="0" width="100%" class="mobile-fullwidth" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0">
@@ -21,17 +13,18 @@
 								<td style="vertical-align: top; font-family: helvetica;">
 									<table cellpadding="0" cellspacing="0" align="center" width="100%">
 									    <tr>
-									        <td class="pattern" width="530" align="center">
+									        <td class="pattern" align="center">
+									        <div style="padding: 0px; margin: 0px; line-height: 20px; border-bottom: 0px">&nbsp;</div>
 									            <table cellpadding="0" cellspacing="0">
 									                <tr>
-									                    <td class="col" width="255" valign="top">
+									                    <td class="col" width="295" valign="top">
 									                        <table cellpadding="0" cellspacing="0">
 									                            <tr>
 									                                <td class="hero_image">
 																		<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-																			<img src="http://placehold.it/505x304" width="255" alt="" style="display: block; border: 0;" />
+																			<img src="http://placehold.it/610x367" width="295" alt="" style="display: block; border: 0;" />
 																		<?php else: ?>
-																			<img src="images/2-col-title-button/header-title-image.jpg" width="255" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																			<img src="images/2-col-title-button/header-title-image.jpg" width="295" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																		<?php endif; ?>
 								                                	</td>
 									                            </tr>
@@ -57,9 +50,9 @@
 																				<td width="100%" style="text-align: center; border-radius: 5px; background-color: #ffffff; color: #BE2D44;" height="35" class="mobile-fullwidth">
 																					<a href="#" style="" target="_blank">
 																						<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-																							<img src="http://placehold.it/497x330" width="255" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																							<img src="http://placehold.it/497x330" width="295" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																						<?php else: ?>
-																							<img src="images/2-col-title-button/cta-image.jpg" width="255" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																							<img src="images/2-col-title-button/cta-image.jpg" width="295" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																						<?php endif; ?>
 																					</a>
 																				</td>
@@ -73,14 +66,14 @@
 									                        </table>
 									                    </td>
 									                    <td class="spacer" width="20" style="font-size: 1px;">&nbsp;</td>
-									                    <td class="col" width="255" valign="top">
+									                    <td class="col" width="295" valign="top">
 									                        <table cellpadding="0" cellspacing="0">
 									                            <tr>
 									                                <td class="hero_image">
 																		<?php if(isset($_GET['testmode']) && $_GET['testmode'] == 1): ?>
-																			<img src="http://placehold.it/505x304" width="255" alt="" style="display: block; border: 0;" />
+																			<img src="http://placehold.it/610x367" width="295" alt="" style="display: block; border: 0;" />
 																		<?php else: ?>
-																			<img src="images/2-col-title-button/header-title-image-2.jpg" width="255" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
+																			<img src="images/2-col-title-button/header-title-image-2.jpg" width="295" alt="" style="display: block; border: 0; text-decoration: none;" class="mobile-fullwidth">
 																		<?php endif; ?>
 								                                	</td>
 									                            </tr>
@@ -137,9 +130,6 @@
 				</tr>
 			</tbody>
 			</table>
-		</td>
-      <td width="20" border="0" class="body-background-color">
-        &nbsp;
-      </td>  		
+		</td> 		
 	</tr>
 </table>

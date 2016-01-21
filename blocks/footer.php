@@ -4,11 +4,8 @@
 			&nbsp;
 		</td>
 		<td>
-<table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+<table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
     <tr>
-		<td width="20" border="0" bgcolor="#010101">
-	        &nbsp;
-      	</td>         
       	<td style="vertical-align: top;">
 			<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online" bgcolor="#010101">
 			<tbody>
@@ -145,10 +142,7 @@
 				</tr>				
 			</tbody>
 			</table>
-		</td>
-      <td width="20" border="0"  bgcolor="#010101">
-        &nbsp;
-      </td>  		
+		</td> 		
 	</tr>
 </table>
 

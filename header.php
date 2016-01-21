@@ -113,7 +113,7 @@
         For clients that support media queries.
         Nothing fancy. 
     -------------------------------------------- */
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 650px) {
       
       img { 
         max-width: 100%; 
@@ -393,6 +393,28 @@
   input{
     display: none;
   }
+
+    * [lang="x-cboxcheck"] {
+      overflow:hidden;
+      display:none !important;
+    }  
+    * [class="cboxcheck"] {
+      display:none !important;
+      overflow:hidden;
+      mso-hide:all; /* Outlook clients*/
+      max-height:0;
+      font-size:0;
+    }
+
+    .checkbox-hide {
+      display: none; 
+      font-size: 0; 
+      max-height: 0; 
+      line-height: 0; 
+      padding: 0; (optional)
+      mso-hide: all; /* hide elements in Outlook 2007-2013 */ (optional)      
+    }
+
   @media screen and (max-width:10000px){
     .cboxcheck:checked + .thumbnail,
     * [summary=cboxcheck]:checked + [summary^=thumbnail] {
@@ -466,7 +488,8 @@
     max-height: 0px;
     height: 0px;
     overflow: hidden;
-    }  
+    }
+
   }
 
   @media screen and (max-width:600px){
