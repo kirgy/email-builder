@@ -1,8 +1,5 @@
-<table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
-    <tr>
-		<td width="20" border="0" class="body-background-color">
-		    &nbsp;
-		</td>         
+<table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+    <tr>       
 		<td>
 		<table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="block-view-online background-primary">
 		<tbody>
@@ -15,9 +12,6 @@
 			</tr>
 		</tbody>
 		</table>
-		</td>
-		  <td width="20" border="0" class="body-background-color">
-			&nbsp;
-		  </td>  		
+		</td>		
 	</tr>
 </table>

@@ -1,11 +1,5 @@
-  <table cellspacing="0" width="610" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
-    <tr>
-      <td width="20" border="0" class="body-background-color">
-        &nbsp;
-      </td>
-      <td width="30" bgcolor="#F7F6F2" border="0">
-        &nbsp;
-      </td>     
+  <table cellspacing="0" width="650" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0" class="mobile-fullwidth body-background-color">
+    <tr> 
       <td style="vertical-align: top;" bgcolor="#F7F6F2" border="0">
 		  <table cellspacing="0" width="100%" cellpadding="0" cellmargin="0" border="0" margin="0" padding="0">
 			<tbody>
@@ -32,12 +26,6 @@
 				</tr>
 			</tbody>
 		</table>
-      </td>
-      <td width="30" bgcolor="#F7F6F2" border="0">
-        &nbsp;
-      </td>           
-      <td width="20" border="0" class="body-background-color">
-        &nbsp;
       </td>
     </tr>
   </table>		
